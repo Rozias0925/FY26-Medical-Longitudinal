@@ -1,0 +1,15 @@
+model,strategy,n_total,n_invalid,n_direction_eligible,n_direction_issued,n_correct,n_wrong,n_control_eligible,n_false_arrow,directional_coverage,directional_precision,false_arrow_rate
+BART,risk_calibrated,2200,0,1400,0,0,0,800,0,0.0,,0.0
+GAM,published_baseline,2200,0,1400,253,170,83,800,42,0.18071428571428572,0.6719367588932806,0.0525
+GAM,risk_calibrated,2200,0,1400,0,0,0,800,0,0.0,,0.0
+GAMM,risk_calibrated,2200,0,1400,0,0,0,800,0,0.0,,0.0
+GPR,published_baseline,2200,0,1400,235,151,84,800,47,0.16785714285714284,0.6425531914893617,0.05875
+GPR,risk_calibrated,2200,0,1400,0,0,0,800,0,0.0,,0.0
+LMM,published_baseline,2200,0,1400,191,132,59,800,42,0.13642857142857143,0.6910994764397905,0.0525
+LMM,risk_calibrated,2200,0,1400,0,0,0,800,0,0.0,,0.0
+MERF,published_baseline,2200,0,1400,344,263,81,800,83,0.24571428571428572,0.7645348837209303,0.10375
+MERF,risk_calibrated,2200,0,1400,0,0,0,800,0,0.0,,0.0
+Mean,published_baseline,2200,0,1400,0,0,0,800,0,0.0,,0.0
+Mean,risk_calibrated,2200,0,1400,0,0,0,800,0,0.0,,0.0
+RF,published_baseline,2200,0,1400,335,239,96,800,82,0.2392857142857143,0.7134328358208956,0.1025
+RF,risk_calibrated,2200,0,1400,0,0,0,800,0,0.0,,0.0

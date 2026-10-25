@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "synthetic_only": true,
+  "content": "Aggregate results, fixed calibration settings and numerical diagnostics only",
+  "sources": [
+    {
+      "path": "outputs/second_rerun/formal_20261012/analysis_manifest.json",
+      "sha256": "d7a8a0a057a68b77ad1177440b214a4a9303972cf901f46b152c6a5b95c3d4c8"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/analysis_manifest.json",
+      "sha256": "28598a9cbfdb73b87429abe01bfb6435ad156688c23775f756b4aabd4be40477"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/review_20261025/selection_eight_models.json",
+      "sha256": "bd62c777c558d2133de614920eee97df364eb007354b825ce7997f3440f0b0d9"
+    },
+    {
+      "path": "outputs/second_rerun/formal_20261012/selection/frozen_rules.json",
+      "sha256": "635812cd25aeb61e49a59efe901ba16560866f9ba90bfcb9edfa79156a6c1e6e"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/selection/frozen_rules.json",
+      "sha256": "998fddf413e1ed0ab8e22155f92bcca1cbceaf44fb62ed381a9f24a123bee789"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/comparison/selection_replicate_metrics.csv",
+      "sha256": "e3ade83dbda3a38f2636e501ec94df7b2a0979fb06bb1c6c2ebf862f6fac4c94"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/comparison/selection_by_scenario.csv",
+      "sha256": "72fab0aaba63044a10573b85ade173ef8db9be1c9a9fbbeaae8b5dafbfbd279a"
+    },
+    {
+      "path": "outputs/review/public_report_20261025/direction_review.json",
+      "sha256": "84cd354eb8a8704bd1593208b2af3d623185013140a0de67ae410cab6303f18c"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/review_20261025/performance_audit/core_means_ranks_mcse.csv",
+      "sha256": "54c211907bbca7061a29a8b3656c848ae79b4b072563aec3bbb941b1e2f77be5"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/review_20261025/performance_audit/core_pairwise_changes_mcse.csv",
+      "sha256": "a8f5c0f7bd7ddaa0b4968493e0aeb8e182c92ac950faaa40d7d336d69e073a20"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/review_20261025/performance_audit/direction_curve_means_mcse.csv",
+      "sha256": "f2ffed57186e14cc7046113c6ab85c7ccc9283b902799cd736f5e45090d2f288"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/review_20261025/performance_audit/threshold_diagnostics.csv",
+      "sha256": "e4ec2990a2971dda1b0ec24c2b0d77143922130b676a044ad7783de6c4ddc901"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/review_20261025/performance_audit/old_numerical_paired_summary.csv",
+      "sha256": "114f2835843a94e3514d9711d885e9f515219dd56e97a92783ad59b8166e1cfb"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/review_20261025/performance_audit/diagnostics_summary.json",
+      "sha256": "2425aa4ce8805b634e254f916b72936111a86b20989ce20abdc272c038185365"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/comparison/performance_replicate_metrics.csv",
+      "sha256": "ebd3b82609ecc50c7b39fa88fbf864281fb501faebe40443967d9bc4a2f7f062"
+    },
+    {
+      "path": "outputs/second_rerun/gamm_bart_20261023/review_20261025/all_stage_diagnostics.json",
+      "sha256": "e6360db5fe7303269a270758b05bd0c6ce6b38beaa672136966acf30e42cf654"
+    },
+    {
+      "path": "SECOND_RERUN_RESULTS_20261023_zh-TW.md",
+      "sha256": "0e4ea5f9831a2214bb92f4d0fafc0ee0d9cab14da6d480f1c77daa33cb19aaa6"
+    }
+  ],
+  "files": {
+    "report.json": "0d959bbb48c156eea57d416d7073bf96dffcb2c5c47dd0c68a41dda386998040",
+    "selection_overall.csv": "6eb8b7ce5902f2a57a0f1f66abc31f727f6d79c4799d4fd202d5e48da825d147",
+    "selection_by_scenario.csv": "53b108130c7ee3e3a894218b25e2219e970c4b0227b754344e793b4661021e69",
+    "selection_paired_differences.csv": "e99459173fe11750443b0a2cf12057287ef1647024e9a35d7450cddfe8e79f38",
+    "direction_pooled.csv": "66ab732255554c8a187c8cbc59910a2e5f3e13ee0c1f670a549d57e6629d7acd",
+    "direction_by_scenario.csv": "f79ca1a3286fd534f71d1790737f6badb33c1df7d5a4d219058f99df0bbdcb4d",
+    "performance_core.csv": "54c211907bbca7061a29a8b3656c848ae79b4b072563aec3bbb941b1e2f77be5",
+    "performance_paired_differences.csv": "a8f5c0f7bd7ddaa0b4968493e0aeb8e182c92ac950faaa40d7d336d69e073a20",
+    "performance_direction_curves.csv": "f2ffed57186e14cc7046113c6ab85c7ccc9283b902799cd736f5e45090d2f288",
+    "performance_thresholds.csv": "e4ec2990a2971dda1b0ec24c2b0d77143922130b676a044ad7783de6c4ddc901",
+    "performance_direction_prediction.csv": "ecb4872df2738098a1b37e06c16a028cbe61e5a4307419bf0527683d51944ec7",
+    "optimization_paired_changes.csv": "114f2835843a94e3514d9711d885e9f515219dd56e97a92783ad59b8166e1cfb"
+  }
+}

@@ -1,0 +1,11 @@
+Scenario,Model,Metric,N_evaluable,N_found,Found_rate,N_error_defined,Mean_absolute_error
+D10,BART,modifier_threshold,50,50,1.0,50,0.4592372048385475
+D10,GAMM,modifier_threshold,50,0,0.0,0,
+D10,GPR,modifier_threshold,50,50,1.0,50,0.5291358816008016
+D10,LMM,modifier_threshold,50,0,0.0,0,
+D10,MERF,modifier_threshold,50,50,1.0,50,0.5619752145409048
+D4,BART,threshold,50,50,1.0,50,0.2593323771418587
+D4,GAMM,threshold,50,50,1.0,50,0.6499878401145489
+D4,GPR,threshold,50,50,1.0,50,0.3733057282717407
+D4,LMM,threshold,50,0,0.0,0,
+D4,MERF,threshold,50,50,1.0,50,0.278640683662097
