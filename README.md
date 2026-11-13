@@ -1,5 +1,12 @@
 # Mixed-Effects Machine Learning for Small-Sample and Sparse Longitudinal Data
 
+## At a glance for research reviewers
+
+**Research setting:** controlled, synthetic, small-sample longitudinal data; this is distinct from analyses of hospital patient records. **Main tasks:** predictor-set recovery, functional recovery, new-subject versus observed-subject prediction, and calibrated directional decisions. **Evidence:** eight-model comparisons, held-out simulation replicates, paired uncertainty analyses, and numerical-sensitivity checks. **Key boundary:** a directional procedure's abstention is a calibrated decision under its stated rules, not proof of absent relationships or a causal conclusion.
+
+For a quick review, start with the [English report](https://rozias0925.github.io/FY26-Medical-Longitudinal/#en-overview), then inspect [data/v2/manifest.json](data/v2/manifest.json) and the reported comparisons. Results are public; model-fitting source code is not included, so full independent rerunning is not presently supported.
+
+
 This project evaluates statistical and machine-learning methods for identifying relevant predictors, estimating response functions, and predicting outcomes in small, sparsely observed longitudinal datasets. An eight-model simulation benchmark examines nonlinear relationships, correlated predictors, subject-level heterogeneity, and incomplete follow-up. This repository contains the public research report and synthetic benchmark results; simulation and model-fitting source code is not included.
 
 **[Research report (English)](https://rozias0925.github.io/FY26-Medical-Longitudinal/#en-overview)** · [繁體中文](https://rozias0925.github.io/FY26-Medical-Longitudinal/#zh-overview)
